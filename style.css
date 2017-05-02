@@ -1,3 +1,82 @@
 /***************************
         Dojo Css
 ***************************/
+
+main{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+
+}
+
+header{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin-right: 5px;
+}
+li:first-child {
+    color: #486c8c;
+}
+.title{
+    text-align: center;
+    background-image: url("./img/bg.jpg");
+    height : 400px;
+    background-position: center center;
+
+}
+
+.second_text{
+    flex : 5;
+    text-align: center;
+}
+.last_section {
+    display: flex;
+
+
+
+}
+
+.blue {
+    color: #486c8c;
+}
+
+.grey {
+    color: #bbbbae;
+}
+
+button {
+    margin: auto;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    background-color: #486c8c;
+    padding: 1%;
+}
+
+
+.ok{
+    margin-top: 150px;
+color: white;
+
+}
+
+.logo {
+    margin:auto;
+
+}
+
+.last_section article{
+    display:flex;
+    flex-direction:column;
+    align-content:center;
+    text-align:center;
+    justify-content:center;
+}
